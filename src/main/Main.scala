@@ -1,4 +1,4 @@
-import item.Apple
+import item.{Apple, Orange}
 import parser.FileParser
 import service.CheckoutService
 

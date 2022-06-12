@@ -1,4 +1,3 @@
-import item.{Apple, Orange}
 import parser.FileParser
 import service.CheckoutService
 
@@ -9,7 +8,7 @@ object Main extends App {
   println(
     CheckoutService
       .calcOrderTotal(
-        basket = parser.parseFile("src/main/resources/basket.txt")
+        basket = parser.parseFile("src/main/scala/resources/basket.txt")
       )
   )
 }

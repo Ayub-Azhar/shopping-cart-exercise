@@ -8,8 +8,8 @@
 src/main/resources/basket.txt
 ```
 - The system is currently configured with two promotional offers:
- - buy one, get one free on Apples
- - 3 for the price of 2 on Oranges
+  - buy one, get one free on Apples
+  - 3 for the price of 2 on Oranges
 
 ### Running the application
 

@@ -2,7 +2,7 @@
 
 - A checkout system for a shop which only sells apples and oranges.
 - Apples cost 60p and oranges cost 25p.
-- The checkout system which takes a list of items scanned at the till and outputs the total cost
+- The checkout system takes a list of items scanned at the till and outputs the total cost.
  - The list of items are submitted as a text file, which is found in the following path:
 ```
 src/main/resources/basket.txt

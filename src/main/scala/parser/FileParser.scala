@@ -1,6 +1,6 @@
 package parser
 
-import item.{Apple, Item, Orange}
+import item.{Apple, Banana, Item, Orange}
 
 class FileParser {
 
@@ -10,6 +10,7 @@ class FileParser {
       itemLog.getLines().toList.map {
         case "Apple"  => Apple
         case "Orange" => Orange
+        case "Banana" => Banana
         case _        => throw new RuntimeException("Invalid item in basket")
       }
     }

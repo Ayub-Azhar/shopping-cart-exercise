@@ -1,5 +1,6 @@
 package item
 
-object Banana {
-
+object Banana extends Item {
+  override val name = "Banana"
+  override val price: BigDecimal = 0.20
 }
